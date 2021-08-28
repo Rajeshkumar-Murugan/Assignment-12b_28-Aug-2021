@@ -1,0 +1,80 @@
+body{
+
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top: 20px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#sedans{
+    background-color: hsl(30deg 77% 52%);
+    padding: 30px;
+    border-radius: 10px 0px 0px 10px;
+}  
+
+.sedansButton{
+    color:hsl(30deg 77% 52%);
+}
+
+
+#suvs{
+    background-color: hsl(185deg 98% 23%);
+    padding: 30px;
+    
+}
+.suvsButton{
+    color:hsl(185deg 98% 23%);
+}
+
+#luxury{
+    background-color:hsl(179deg 100% 13%);
+    padding: 30px; 
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.luxuryButton{
+
+    color:hsl(179deg 100% 13%);
+}
+
+#full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    padding: 30px;
+    width: 50%;
+    padding-bottom: 10px;
+    
+    
+}
+button{
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    border-color: white;
+
+}
+
+label{
+    font-size: 20px;
+    font-size: 15px;
+    padding-right:15px;
+    padding-left:15px;
+}
+
+
+
